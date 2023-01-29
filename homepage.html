@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link href="style.css" rel="stylesheet" media="screen">
+    </head>
+    <body>
+        <header>
+            <a href="homepage.html"><h1 class="site-title">ProjectMaster</h1></a>
+        </header>
+
+        <main class="projectContainer">
+
+            <article class="project">
+                <div class="project-content">
+                    <p class="project-name-text">
+                        Test Project 1
+                    </p>
+                    <p class="project-location-text">
+                        Salem
+                    </p>
+                    <p class="project-date-text">
+                        1/28/23
+                    </p>
+            </article>
+
+            <article class="project">
+                <div class="project-content">
+                    <p class="project-name-text">
+                        Test Project 2
+                    </p>
+                    <p class="project-location-text">
+                        Bend
+                    </p>
+                    <p class="project-date-text">
+                        1/29/23
+                    </p>
+            </article>
+
+            <article class="project">
+                <div class="project-content">
+                    <p class="project-name-text">
+                        Test Project 3
+                    </p>
+                    <p class="project-location-text">
+                        Portland
+                    </p>
+                    <p class="project-date-text">
+                        1/30/23
+                    </p>
+            </article>
+        </main>
+
+        <button type="button" id="create-project-button">Create Project</button>
+
+        <div id="modal-backdrop" class="hidden"></div>
+        <div id="create-project-modal" class="hidden">
+            <div class="modal-dialog">
+                <div class="modal-header">
+                    <h3>Create a Project</h3>
+                    <button type="button" class="modal-close-button">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="project-input-element">
+                        <label for="project-name-input">Project Name</label>
+                        <textarea id="project-name-input"></textarea>
+                    </div>
+                    <div class="project-input-element">
+                        <label for="project-location-input">Project Location</label>
+                        <textarea id="project-location-input"></textarea>
+                    </div>
+                    <div class="project-input-element">
+                        <label for="project-date-input">Project Date</label>
+                        <input type="date" name="project-date-input" id="project-date-input">
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="modal-cancel-button">Cancel</button>
+                    <button type="button" class="modal-accept-button">Create Project</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>
