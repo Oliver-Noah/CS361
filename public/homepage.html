@@ -2,15 +2,25 @@
     <head>
         <title>Home</title>
         <link href="style.css" rel="stylesheet" media="screen">
+        <script src="index.js" charset="utf-8" defer></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">"
     </head>
     <body>
         <header>
             <a href="homepage.html"><h1 class="site-title">ProjectMaster</h1></a>
+
+            <nav class="navbar">
+                <ul class="navlist">
+                    <li class="navitem navlink active"><a href="homepage.html">ProjectMaster</a></li>
+                    <li class="navitem navlink"><a href="checklist.html">Checklist</a></li>
+                    <li class="navitem navlink"><a href="help.html">Help</a></li>
+                </ul>
+            </nav>
         </header>
 
         <main class="projectContainer">
 
-            <article class="project">
+            <article class="project" title="Click to open project">
                 <div class="project-content">
                     <p class="project-name-text">
                         Test Project 1
@@ -21,9 +31,10 @@
                     <p class="project-date-text">
                         1/28/23
                     </p>
+                    <i class="fa fa-trash-o" title="Click to delete project"></i>
             </article>
 
-            <article class="project">
+            <article class="project" title="Click to open project">
                 <div class="project-content">
                     <p class="project-name-text">
                         Test Project 2
@@ -34,9 +45,10 @@
                     <p class="project-date-text">
                         1/29/23
                     </p>
+                    <i class="fa fa-trash-o" title="Click to delete project"></i>
             </article>
 
-            <article class="project">
+            <article class="project" title="Click to open project">
                 <div class="project-content">
                     <p class="project-name-text">
                         Test Project 3
@@ -47,10 +59,11 @@
                     <p class="project-date-text">
                         1/30/23
                     </p>
+                    <i class="fa fa-trash-o" title="Click to delete project"></i>
             </article>
         </main>
 
-        <button type="button" id="create-project-button">Create Project</button>
+        <button type="button" id="create-project-button" title="Click to create new project">+</button>
 
         <div id="modal-backdrop" class="hidden"></div>
         <div id="create-project-modal" class="hidden">
