@@ -47,6 +47,20 @@ app.get('', function (req, res, next) {
     }
 });
 
+async function callMicro(data) {
+    const url = "http://localhost:5000/totalTime"
+    const resp = await fetch(url, {
+        method: "POST",
+        body: JSON.stringify(data),
+        headers: {
+            "Content-Type": "application/json",
+        },
+    })
+    respData = await resp.json()
+    //document.getElementById("estimationButton").innerHTML = respData.totalTime
+    console.log("total estimated time: ", respData.totalTime)
+}
+
 app.get('/:project', function (req, res, next) {
     var projectIndex = -1
     var project = req.params.project.toLowerCase();
@@ -60,6 +74,9 @@ app.get('/:project', function (req, res, next) {
     }
     if(projectIndex > -1) {
         res.status(200).render('projectPage', data.projects[projectIndex])
+        let microSendData = data.projects[projectIndex]
+        console.log(microSendData)
+        callMicro(microSendData)
     }
     else {
         next()

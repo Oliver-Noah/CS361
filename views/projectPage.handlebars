@@ -7,26 +7,6 @@
         {{> intersection}}
     {{/each}}
     </main>
-    <h2 class="estimationLabel">Estimated time to complete all inspections: </h2>
-    <h2 id="estimationMicro" onload="callMicro()"></h2>
-
-    <script>
-        function callMicro() {
-            const url = "http://localhost:5000/totalTime"
-            const data = {
-                {{intersections}}
-            }
-            const resp = await fetch(url, {
-                method: "POST",
-                body: JSON.stringify(data),
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            })
-            if(resp.status === 200) {
-                respData = await resp.json()
-                document.getElementById("estimationMicro").innerHTML = respData.totalTime
-            }
-        }
-    </script>
+    <h2 class="estimation">Estimated time to inspect all ramps in project: </h2>
+    <h2 id="estimationButton"></h2>
 </div>

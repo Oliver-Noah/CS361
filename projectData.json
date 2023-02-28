@@ -13,50 +13,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Combination",
-                            "inspectionType": "Full"
+                            "style": "COMBINATION",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Unique",
-                            "inspectionType": "Full"
+                            "style": "UNIQUE",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 },
@@ -67,50 +67,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Combination",
-                            "inspectionType": "Full"
+                            "style": "COMBINATION",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Cut Through",
-                            "inspectionType": "Full"
+                            "style": "CUT_THROUGH",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Cut Through",
-                            "inspectionType": "Full"
+                            "style": "CUT_THROUGH",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Combination",
-                            "inspectionType": "Full"
+                            "style": "COMBINATION",
+                            "inspectionType": "FULL"
                         }
                     ]
                 },
@@ -121,50 +121,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Go Back"
+                            "style": "PARALLEL",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 }
@@ -183,50 +183,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Go Back"
+                            "style": "PARALLEL",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Go Back"
+                            "style": "PARALLEL",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 },
@@ -237,50 +237,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Unique",
-                            "inspectionType": "Go Back"
+                            "style": "UNIQUE",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Go Back"
+                            "style": "PARALLEL",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Unique",
-                            "inspectionType": "Full"
+                            "style": "UNIQUE",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 },
@@ -291,50 +291,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Unique",
-                            "inspectionType": "Go Back"
+                            "style": "UNIQUE",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Go Back"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "GO_BACK"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Unique",
-                            "inspectionType": "Full"
+                            "style": "UNIQUE",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 }
@@ -353,50 +353,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 },
@@ -407,50 +407,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 },
@@ -461,50 +461,50 @@
                         {
                             "corner": "1",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "1",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "2",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "1",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "3",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "1",
-                            "style": "Parallel",
-                            "inspectionType": "Full"
+                            "style": "PARALLEL",
+                            "inspectionType": "FULL"
                         },
                         {
                             "corner": "4",
                             "ramp": "2",
-                            "style": "Perpendicular",
-                            "inspectionType": "Full"
+                            "style": "PERPENDICULAR",
+                            "inspectionType": "FULL"
                         }
                     ]
                 }
