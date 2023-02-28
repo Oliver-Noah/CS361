@@ -55,10 +55,10 @@ app.get('/:project', function (req, res, next) {
         let temp2 = temp.name.replace(/([^a-z0-9]+)/gi, '');
         let temp3 = temp2.toLowerCase();
         if(project === temp3) {
-            projectIndex - i;
+            projectIndex = i;
         }
     }
-    if(movieIndex > -1) {
+    if(projectIndex > -1) {
         res.status(200).render('projectPage', data.projects[projectIndex])
     }
     else {

@@ -2,346 +2,511 @@
     "projects": [
         {
             "name": "Test Project 1",
+            "hrefName": "TestProject1",
             "location": "Monmouth",
             "date": "1/28/23",
             "intersections": [
                 {
                     "highway": "091",
                     "milepoint": "63.35",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Combination",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Unique",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 },
                 {
                     "highway": "091",
                     "milepoint": "63.42",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Combination",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Cut Through",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Cut Through",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Combination",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 },
                 {
                     "highway": "091",
                     "milepoint": "63.49",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 }
             ]
         },
         {
             "name": "Test Project 2",
+            "hrefName": "TestProject2",
             "location": "Bend",
             "date": "1/29/23",
             "intersections": [
                 {
                     "highway": "004",
                     "milepoint": "137.66",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 },
                 {
                     "highway": "004",
                     "milepoint": "137.73",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Unique",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Unique",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 },
                 {
                     "highway": "004",
                     "milepoint": "137.8",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Unique",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Go Back"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Unique",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 }
             ]
         },
         {
             "name": "Test Project 3",
+            "hrefName": "TestProject3",
             "location": "Portland",
             "date": "1/30/23",
             "intersections": [
                 {
                     "highway": "026",
                     "milepoint": "63.35",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 },
                 {
                     "highway": "026",
                     "milepoint": "63.42",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 },
                 {
                     "highway": "026",
                     "milepoint": "63.49",
-                    "corner1ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Go Back"
-                    },
-                    "corner1ramp2": {
-                        "rampStyle": "Combination",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp1": {
-                        "rampStyle": "Unique",
-                        "inspectionType": "Full"
-                    },
-                    "corner2ramp2": {
-                        "rampStyle": "Parallel",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner3ramp2": {
-                        "rampStyle": "Null",
-                        "inspectionType": "Null"
-                    },
-                    "corner4ramp1": {
-                        "rampStyle": "Perpendicular",
-                        "inspectionType": "Full"
-                    },
-                    "corner4ramp2": {
-                        "rampStyle": "Null",
-                        "inspectionType": "Null"
-                    }
+                    "ramps": [
+                        {
+                            "corner": "1",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "1",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "2",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "1",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "3",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "1",
+                            "style": "Parallel",
+                            "inspectionType": "Full"
+                        },
+                        {
+                            "corner": "4",
+                            "ramp": "2",
+                            "style": "Perpendicular",
+                            "inspectionType": "Full"
+                        }
+                    ]
                 }
             ]
         }
